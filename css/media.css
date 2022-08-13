@@ -3,7 +3,50 @@
 /*==========================*/
 
 @media(min-width:992px) and (max-width:1199px){
-   
+    .content-left {
+        width: 250px;
+        margin-right: 10px;
+    }
+    .content-right {
+        max-width: 730px;
+    }
+    .content-main {
+        justify-content: center;
+    }
+    .donate-extra {
+        width: 370px;
+    }
+    .donate-content-item select {
+        width: 285px;
+    }
+    .profile-right {
+        width: 338px;
+    }
+    .profile-video video {
+        width: 375px;
+        height: 211px;
+    }
+    .video-overlay {
+        width: 97%;
+    }
+    .donate-content-item button {
+        padding: 11px 27px;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 15px;
+    }
+    .group-card-left {
+        width: 330px;
+    }
+    .group-card-right {
+        width: 330px;
+    }
+    .card-img {
+        width: 330px;
+    }
+    .card-content {
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -45,8 +88,11 @@
 
     /* ===============content part========================= */
     .content-main {
-        display: block;
-        /* justify-content: space-between; */
+        display: flex;
+        justify-content: center;
+    }
+    .content-right {
+        max-width: 800px;
     }
     .body{
         position: relative;
@@ -73,7 +119,7 @@
         gap: 10px;
         background: #f0f0f0;
         z-index: 9999;
-        height: 100%;
+        height: 745px;
         left: 8%;
         z-index: 999;
     }
@@ -344,7 +390,7 @@
         gap: 10px;
         background: #f0f0f0;
         z-index: 9999;
-        height: 100%;
+        height: 745px;
         left: 8%;
         z-index: 999;
     }
@@ -642,7 +688,7 @@
         gap: 10px;
         background: #f0f0f0;
         z-index: 9999;
-        height: 100%;
+        height: 745px;
         left: 8%;
         z-index: 999;
     }
@@ -913,7 +959,7 @@
         gap: 10px;
         background: #f0f0f0;
         z-index: 9999;
-        height: 100%;
+        height: 745px;
         left: 8%;
         z-index: 999;
     }
@@ -1179,7 +1225,7 @@
         gap: 10px;
         background: #f0f0f0;
         z-index: 9999;
-        height: 100%;
+        height: 745px;
         left: 8%;
         z-index: 999;
     }
